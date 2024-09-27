@@ -23,3 +23,10 @@ Este sitio web esta estructurado por modulos: Fotografia, Diseño Gráfico,Desar
 `<p> Hola mundo soy una prueba </p>`
 
 ![panda](assets/images/panda.jpeg)
+
+
+| COD      | USER NAME | EMAIL |
+|---------|-------------|----------|
+| ED001    | lucy25 | lucy26@gmail.com  |
+| ED002    |  maria26   | maria2612@gmail.com   |
+| ED003    | pedro62   | pedro1412@gmail.com  |
