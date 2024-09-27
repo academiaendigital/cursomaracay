@@ -1,0 +1,100 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    color: aqua;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.h1{ color: white;
+    font-size: 48px;   
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.p{
+    color: rgb(14, 0, 213);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.venezuela{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px 30px 50px;
+   /* margin-left: 100px;*/
+}
+.head{
+    background-color: black;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 100px 80px 50px 50px;
+
+
+}
+.head h2{
+    color: yellow;
+    font-size: 54px;
+}
+.head p{
+     color: white;
+     font-weight: 400;
+     font-family: 'Times New Roman', Times, serif ;
+
+}
+.head ul{ 
+    list-style: none;
+    line-height: 1.5em;
+}
+.head ul li{
+    font-size: 18px;
+    font-weight: 300 ;
+   
+}
+.contacto{
+    background-color: blue;
+    padding: 100px;
+
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    color: rgb(11, 11, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+label{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding-bottom: 15px;
+    
+}
+select{
+    width: 100%;
+    color: rgb(21, 21, 21);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
