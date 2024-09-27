@@ -3,7 +3,7 @@
 
 Este sitio web esta estructurado por modulos: Fotografia, Diseño Gráfico,Desarrollo de App, Desarrollo Web y Cursos.
 
-> Empieza donde estas, usa lo que tienes, haz lo que puedas Artur Ashe
+> *Empieza donde estas, usa lo que tienes, haz lo que puedas* **Artur Ashe**
 
 ### Desarrolladores
     * Carlos
@@ -17,3 +17,9 @@ Este sitio web esta estructurado por modulos: Fotografia, Diseño Gráfico,Desar
 1. Alumnos
 1. Horarios
 
+
+[Academia Endigital](https://academiaendigital.com/)
+
+`<p> Hola mundo soy una prueba </p>`
+
+![panda](assets/images/panda.jpeg)
