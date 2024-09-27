@@ -45,3 +45,35 @@ header{
 .menu li a:hover{
     color: var(--mint);
 }
+.servicios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 20px;
+
+}
+
+.card{
+    background-color: var(--white);
+    border: var(--blue) 2px solid;
+    border-radius: 10px;
+    padding: 30px 50px;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+.card h3{
+    font-size: 1.5em;
+    color: var(--grey);
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.card p{
+    text-align: center;
+    color: var(--grey);
+}
+p{
+    font-size: 16px;
+}
