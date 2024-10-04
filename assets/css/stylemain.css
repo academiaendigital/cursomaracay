@@ -4,6 +4,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1em;
 
 }
 :root{
@@ -15,6 +17,11 @@ body{
 
 
 }
+a{ color:var(--blue);}
+a:visited{ colo: var(--grey)};
+a:hover{ color: var(--mint);}
+
+
 header{
     background-color: var(--blue);
     color: var(--white);
@@ -46,10 +53,12 @@ header{
     color: var(--mint);
 }
 .servicios{
-    width: 100%;
+    width: 94%;
     display: grid;
     grid-template-columns: auto auto auto ;
     grid-gap: 20px;
+    padding-right: 3%;
+    padding-left: 3%;
 
 }
 
@@ -77,3 +86,117 @@ header{
 p{
     font-size: 16px;
 }
+
+/*INICIO DE ESTILO PARA TITULO DE SECCION**/
+
+.titulo-seccion{
+    text-align: center;
+}
+
+.titulo-seccion h2{
+    font-size: 36px ;
+    font-weight: 800;
+    line-height: 1.2em;
+    
+
+}
+.titulo-seccion p{
+    font-size: 18px;
+    line-height: 1.2em;
+
+
+}
+
+/**/
+
+/* color de secciones - fuentes*/
+.primary-color{
+    background-color: var(--blue);
+}
+.primary-font{
+    color: var(--blue);
+}
+.white-color{
+    color: var(--white)
+}
+
+/*padding */
+.padding-20x{
+    padding: 20px;
+}
+.padding-50x{
+    padding: 50px;
+
+}
+.padding-top-100x{
+    padding-top: 100px;
+}
+.padding-bottom-100x{
+    padding-bottom: 100px;
+}
+
+
+/*botones */
+.primary-button{
+    background-color: var(--white);
+    color:var(--blue);
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+
+
+}
+.primary-button:hover{
+    background-color: yellow;
+    color:var(--white);
+}
+
+/*CSS SECCION CONTACTO**/
+.contacto{
+    width: 94%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+}
+.contacto h2{
+    font-size: 36px;
+    
+}
+.right-column input[type="text"], [type="tel"], [type="email"]{
+
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: var(--grey);
+    font-size: 18px;
+    color: var(--grey);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.right-column  label{
+    width: 100%;
+    font-size: 18px;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+
+.right-column textarea{
+    width: 100%;
+    font-size: 18px;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+
+.right-column input[type="submit"]{
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+
