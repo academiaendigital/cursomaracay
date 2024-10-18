@@ -271,3 +271,36 @@ p{
 
 }
 
+
+/* PAGINA DE DESARROLLO WEB*/
+.col-servicio{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20xp;
+}
+h1{
+    font-size: 2.2em;
+}
+.img-responsive{
+    width: 100%;
+
+}
+.border-white{
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 15px #00000077;
+    
+}
+.col-1{
+    padding: 30px;
+    padding-right: 10%;
+    line-height: 1.8em;
+}
+
+
+/* listas dentro de CARD*/
+.card ul li {
+    list-style-type: square;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8em;
+
+}
